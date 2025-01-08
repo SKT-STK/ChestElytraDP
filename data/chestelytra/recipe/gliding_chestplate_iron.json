@@ -1,0 +1,18 @@
+{
+  "type": "smithing_transform",
+  "template": "iron_ingot",
+  "base": "iron_chestplate",
+  "addition": "elytra",
+  "result": {
+    "id": "iron_chestplate",
+    "components": {
+      "glider": {},
+      "equippable": {
+        "slot": "chest",
+        "model": "chestelytra:iron_elytra"
+      },
+      "item_name": "\"Iron Gliding Chestplate\"",
+      "item_model": "chestelytra:iron_elytra"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "smithing_transform",
+  "template": "diamond",
+  "base": "diamond_chestplate",
+  "addition": "elytra",
+  "result": {
+    "id": "diamond_chestplate",
+    "components": {
+      "glider": {},
+      "equippable": {
+        "slot": "chest",
+        "model": "chestelytra:diamond_elytra"
+      },
+      "item_name": "\"Diamond Gliding Chestplate\"",
+      "item_model": "chestelytra:diamond_elytra"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "smithing_transform",
+  "template": "leather",
+  "base": "leather_chestplate",
+  "addition": "elytra",
+  "result": {
+    "id": "leather_chestplate",
+    "components": {
+      "glider": {},
+      "equippable": {
+        "slot": "chest",
+        "model": "chestelytra:leather_elytra"
+      },
+      "item_name": "\"Leather Gliding Tunic\"",
+      "item_model": "chestelytra:leather_elytra"
+    }
+  }
+}

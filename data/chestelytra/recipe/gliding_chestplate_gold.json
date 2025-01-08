@@ -1,0 +1,18 @@
+{
+  "type": "smithing_transform",
+  "template": "gold_ingot",
+  "base": "golden_chestplate",
+  "addition": "elytra",
+  "result": {
+    "id": "golden_chestplate",
+    "components": {
+      "glider": {},
+      "equippable": {
+        "slot": "chest",
+        "model": "chestelytra:gold_elytra"
+      },
+      "item_name": "\"Golden Gliding Chestplate\"",
+      "item_model": "chestelytra:golden_elytra"
+    }
+  }
+}

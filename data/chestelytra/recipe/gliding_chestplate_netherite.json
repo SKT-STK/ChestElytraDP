@@ -1,0 +1,18 @@
+{
+  "type": "smithing_transform",
+  "template": "netherite_scrap",
+  "base": "netherite_chestplate",
+  "addition": "elytra",
+  "result": {
+    "id": "netherite_chestplate",
+    "components": {
+      "glider": {},
+      "equippable": {
+        "slot": "chest",
+        "model": "chestelytra:netherite_elytra"
+      },
+      "item_name": "\"Netherite Gliding Chestplate\"",
+      "item_model": "chestelytra:netherite_elytra"
+    }
+  }
+}

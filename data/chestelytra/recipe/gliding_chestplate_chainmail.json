@@ -1,0 +1,18 @@
+{
+  "type": "smithing_transform",
+  "template": "iron_nugget",
+  "base": "chainmail_chestplate",
+  "addition": "elytra",
+  "result": {
+    "id": "chainmail_chestplate",
+    "components": {
+      "glider": {},
+      "equippable": {
+        "slot": "chest",
+        "model": "chestelytra:chainmail_elytra"
+      },
+      "item_name": "\"Chainmail Gliding Chestplate\"",
+      "item_model": "chestelytra:chainmail_elytra"
+    }
+  }
+}
