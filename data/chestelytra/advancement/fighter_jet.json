@@ -1,0 +1,67 @@
+{
+  "display": {
+    "icon": {
+      "id": "dirt",
+      "components": {
+        "minecraft:item_model": "chestelytra:netherite_elytra"
+      }
+    },
+    "title": "Mom look! I'm a fighter jet now!",
+    "description": "Craft a gliding chestplate",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:end/elytra",
+  "criteria": {
+    "leather": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "chestelytra:gliding_chestplate_leather"
+      }
+    },
+    "chainmail": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "chestelytra:gliding_chestplate_chainmail"
+      }
+    },
+    "golden": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "chestelytra:gliding_chestplate_gold"
+      }
+    },
+    "iron": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "chestelytra:gliding_chestplate_iron"
+      }
+    },
+    "diamond": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "chestelytra:gliding_chestplate_diamond"
+      }
+    },
+    "netherite": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "chestelytra:gliding_chestplate_netherite"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "leather",
+      "chainmail",
+      "golden",
+      "iron",
+      "diamond",
+      "netherite"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}
